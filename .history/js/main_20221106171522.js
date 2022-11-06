@@ -83,7 +83,7 @@ const main = () => {
   //--------------------------infospot pour le 3er Panorama-------------
   addInfoSpot(panorama3, 5200, 200, 3800, "Camaieu", 150);
   addInfoSpot(panorama3, 1500, 300, 3800, "wallStreet", 150);
-  addInfoSpot(panorama3, 5500, 250, -2800, "Rayon", 150);
+  addInfoSpot(panorama3, 5500, 250, -2800, "video2", 150);
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 4er Panorama-------------

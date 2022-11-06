@@ -67,13 +67,13 @@ const main = () => {
   }
 
   //--------------------------infospot pour le 1er Panorama-------------
-  addInfoSpot(panorama1, 4500, 2050, 800, "base_republique", 100);
-  addInfoSpot(panorama1, 4500, 3850, 400, "statue_republique", 70);
-  addInfoSpot(panorama1, 4500, 550, 1000, "audio", 70);
-  addInfoSpot(panorama1, 1500, 400, 3900, "wallStreet", 10);
-  addInfoSpot(panorama1, -1500, 400, 4900, "cafe_republique", 70);
-  addInfoSpot(panorama1, 3500, 1050, -3300, "Gendarmerie_nationale", 70);
-  addInfoSpot(panorama1, -1550, 150, 1850, "republique-metro", 70);
+  addInfoSpot(panorama1, 4500, 2050, 800, "republique-metro", 100);
+  addInfoSpot(panorama1, 4500, 3850, 400, "Gendarmerie_nationale", 100);
+  addInfoSpot(panorama1, 4500, 550, 1000, "republique-metro", 70);
+  addInfoSpot(panorama1, 1500, 400, 3900, "audio", 70);
+  addInfoSpot(panorama1, -1500, 400, 4900, "audio", 70);
+  addInfoSpot(panorama1, 3500, 1050, -3300, "audio", 70);
+  addInfoSpot(panorama1, -1550, 150, 1850, "audio", 70);
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 2eme Panorama-------------
@@ -81,15 +81,15 @@ const main = () => {
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 3er Panorama-------------
-  addInfoSpot(panorama3, 5200, 200, 3800, "Camaieu", 150);
-  addInfoSpot(panorama3, 1500, 300, 3800, "wallStreet", 150);
-  addInfoSpot(panorama3, 5500, 250, -2800, "Rayon", 150);
+  addInfoSpot(panorama3, 5200, 200, 3800, "audio2", 150);
+  addInfoSpot(panorama3, 1500, 300, 3800, "video2", 150);
+  addInfoSpot(panorama3, 5500, 250, -2800, "video2", 150);
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 4er Panorama-------------
-  addInfoSpot(panorama4, -3000, 300, -4500, "banque", 150);
-  addInfoSpot(panorama4, -200, 300, 3800, "Gendarmerie_nationale", 150);
-  addInfoSpot(panorama4, 1500, 250, -2800, "audio", 150);
+  addInfoSpot(panorama4, -3000, 300, -4500, "audio2", 150);
+  addInfoSpot(panorama4, -200, 300, 3800, "video2", 150);
+  addInfoSpot(panorama4, 1500, 250, -2800, "video2", 150);
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 5er Panorama-------------
