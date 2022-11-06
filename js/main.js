@@ -67,41 +67,41 @@ const main = () => {
   }
 
   //--------------------------infospot pour le 1er Panorama-------------
-  addInfoSpot(panorama1, 4500, 2050, 800, "base_republique", 100);
-  addInfoSpot(panorama1, 4500, 3850, 400, "statue_republique", 70);
-  addInfoSpot(panorama1, 4500, 550, 1000, "audio", 70);
-  addInfoSpot(panorama1, 1500, 400, 3900, "wallStreet", 10);
-  addInfoSpot(panorama1, -1500, 400, 4900, "cafe_republique", 70);
+  addInfoSpot(panorama1, 4500, 2050, 800, "base_republique", 50);
+  addInfoSpot(panorama1, 4500, 3850, 400, "statue_republique", 170);
+  addInfoSpot(panorama1, 4500, 550, 1000, "videoRpb", 250);
+  addInfoSpot(panorama1, 1500, 400, 3900, "wallStreet", 280);
+  addInfoSpot(panorama1, -1500, 400, 4900, "cafe_republique", 270);
   addInfoSpot(panorama1, 3500, 1050, -3300, "Gendarmerie_nationale", 70);
   addInfoSpot(panorama1, -1550, 150, 1850, "republique-metro", 70);
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 2eme Panorama-------------
-  addInfoSpot(panorama2, 500, 150, 4000, "video2", 150);
+  addInfoSpot(panorama2, 500, 120, 4000, "nuit", 200);
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 3er Panorama-------------
-  addInfoSpot(panorama3, 5200, 200, 3800, "Camaieu", 150);
-  addInfoSpot(panorama3, 1500, 300, 3800, "wallStreet", 150);
-  addInfoSpot(panorama3, 5500, 250, -2800, "Rayon", 150);
+  addInfoSpot(panorama3, 5200, 200, 3800, "maisonlandemaine", 280);
+  addInfoSpot(panorama3, 1500, 300, 3800, "wallStreet", 290);
+  addInfoSpot(panorama3, 5500, 250, -2800, "Rayon", 280);
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 4er Panorama-------------
-  addInfoSpot(panorama4, -3000, 300, -4500, "banque", 150);
+  addInfoSpot(panorama4, -3000, 300, -4500, "banque", 120);
   addInfoSpot(panorama4, -200, 300, 3800, "Gendarmerie_nationale", 150);
-  addInfoSpot(panorama4, 1500, 250, -2800, "audio", 150);
+  addInfoSpot(panorama4, 1500, 250, -2800, "cafe", 100);
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 5er Panorama-------------
-  addInfoSpot(panorama5, -3000, 300, -5500, "audio2", 150);
-  addInfoSpot(panorama5, 5000, 50, 800, "video2", 150);
-  addInfoSpot(panorama5, 3500, 50, 3000, "video2", 150);
+  addInfoSpot(panorama5, -3000, 300, -5500, "videoRpbq", 200);
+  addInfoSpot(panorama5, 5000, 50, 800, "gosport", 300);
+  addInfoSpot(panorama5, 3500, 50, 3000, "metro_", 180);
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 6er Panorama-------------
-  addInfoSpot(panorama6, -1000, 300, -5500, "audio2", 50);
-  addInfoSpot(panorama6, -4500, 50, 2800, "video2", 150);
-  addInfoSpot(panorama6, -5500, 150, -100, "video2", 150);
+  addInfoSpot(panorama6, -1000, 300, -5500, "l'R_de_Jeux", 250);
+  addInfoSpot(panorama6, -4500, 50, 2800, "PXL_20221026_103020872", 150);
+  addInfoSpot(panorama6, -5500, 150, -100, "PXL_20221026_102407389", 150);
 
   // pour tourne
   viewer = new PANOLENS.Viewer({
