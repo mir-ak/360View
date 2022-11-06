@@ -59,29 +59,52 @@ const main = () => {
   panorama6.link(panorama3, lookAtPositions[15]);
   panorama6.link(panorama5, lookAtPositions[16]);
 
-  function addInfoSpot (panorama,x,y,z,id,h){
+  function addInfoSpot(panorama, x, y, z, id, h) {
     infospot = new PANOLENS.Infospot(300, PANOLENS.DataImage.Info);
-    infospot.position.set(x, y,z);
+    infospot.position.set(x, y, z);
     infospot.addHoverElement(document.getElementById(id), h);
     panorama.add(infospot);
   }
 
   //--------------------------infospot pour le 1er Panorama-------------
-  addInfoSpot(panorama1,900,0,-4000,"video",200);
-  addInfoSpot(panorama1,50,0,-5000,"image",300);
-  addInfoSpot(panorama1,2500,5,-4000,"audio",70);
+  addInfoSpot(panorama1, 4500, 2050, 800, "video", 100);
+  addInfoSpot(panorama1, 4500, 3850, 400, "image", 100);
+  addInfoSpot(panorama1, 4500, 550, 1000, "audio", 70);
+  addInfoSpot(panorama1, 1500, 400, 3900, "audio", 70);
+  addInfoSpot(panorama1, -1500, 400, 4900, "audio", 70);
+  addInfoSpot(panorama1, 3500, 1050, -3300, "audio", 70);
+  addInfoSpot(panorama1, -1550, 150, 1850, "audio", 70);
   //---------------------------------------------------------------------
-  
+
   //--------------------------infospot pour le 2eme Panorama-------------
-  addInfoSpot(panorama2,2500, 150, -2700,"video2",150);
-  addInfoSpot(panorama2,3000, 10, -500,"image2",170);
-  addInfoSpot(panorama2,1900, 500, -6000,"audio2",150);
+  addInfoSpot(panorama2, 500, 150, 4000, "video2", 150);
+  // addInfoSpot(panorama2, 3000, 10, -500, "image2", 170);
+  // addInfoSpot(panorama2, 2900, 500, 500, "audio2", 150);
   //---------------------------------------------------------------------
-  
+
   //--------------------------infospot pour le 3er Panorama-------------
-  addInfoSpot(panorama3,9000, 500, 6000,"audio2",150);
+  addInfoSpot(panorama3, 5200, 200, 3800, "audio2", 150);
+  addInfoSpot(panorama3, 1500, 300, 3800, "video2", 150);
+  addInfoSpot(panorama3, 5500, 250, -2800, "video2", 150);
   //---------------------------------------------------------------------
-  
+
+  //--------------------------infospot pour le 4er Panorama-------------
+  addInfoSpot(panorama4, -3000, 300, -4500, "audio2", 150);
+  addInfoSpot(panorama4, -200, 300, 3800, "video2", 150);
+  addInfoSpot(panorama4, 1500, 250, -2800, "video2", 150);
+  //---------------------------------------------------------------------
+
+  //--------------------------infospot pour le 5er Panorama-------------
+  addInfoSpot(panorama5, -3000, 300, -5500, "audio2", 150);
+  addInfoSpot(panorama5, 5000, 50, 800, "video2", 150);
+  addInfoSpot(panorama5, 3500, 50, 3000, "video2", 150);
+  //---------------------------------------------------------------------
+
+  //--------------------------infospot pour le 6er Panorama-------------
+  addInfoSpot(panorama6, -1000, 300, -5500, "audio2", 50);
+  addInfoSpot(panorama6, -4500, 50, 2800, "video2", 150);
+  addInfoSpot(panorama6, -5500, 150, -100, "video2", 150);
+
   // pour tourne
   viewer = new PANOLENS.Viewer({
     output: "console",
