@@ -29,6 +29,7 @@ nav {
 
 nav .logo {
   width: 120px;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -55,7 +56,7 @@ ul li a {
   padding: 10px 20px;
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 ul li a::after {
@@ -98,7 +99,6 @@ ul li a:hover::after {
 
 .site-container .row {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   margin-top: 40px;
 }
@@ -111,7 +111,7 @@ ul li a:hover::after {
   color: #fff;
   border: 1px solid #fff;
   margin-right: 40px;
-  font-size: 18px;
+  font-size: 40px;
   transition: 0.3s;
 }
 
@@ -211,7 +211,7 @@ ul li a:hover::after {
   }
 
   .site-container p {
-    font-size: 50px;
+    font-size: 150px;
     font-weight: bold;
   }
 
