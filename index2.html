@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="css/accueil.css" type="text/css" />
     <title>Page d'accueil</title>
   </head>
+
   <body>
+
     <div class="container">
+
       <nav>
         <img src="image/logo.png" class="logo" />
         <ul>
@@ -19,23 +22,23 @@
 
       <section class="site-container">
         <p>Personnalisez le patrimoine en</p>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
         <h1>Vue 360</h1>
         <div class="row">
           <a href="./index.html">Commancez !</a>
-        
         </div>
       </section>
 
-      <section class="social-icons">
-        <a href="#"><img src="image/github-fill.png" alt="" /></a>
-        <a href="#"><img src="image/instagram-fill.png" alt="" /></a>
-        <a href="#"><img src="image/telegram-fill.png" alt="" /></a>
-        <a
-          href="https://drive.google.com/file/d/1u2ZQxyamKsgJ4JxO-kYbytfxaaEkOT_a/view?usp=sharing"
-          target="_blank"
-          ><img src="image/drive-fill.png" alt=""
-        /></a>
+      <section class="site-container-right" >
+        <paper-dialog id="dialog" modal>
+          <h3> Sign In</h3>
+          <div id="gsignin" on-tap="signIn">
+            <img src="google_signin.png" />
+          </div>
+        </paper-dialog>
       </section>
+
     </div>
+
   </body>
 </html>
