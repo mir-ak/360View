@@ -67,13 +67,13 @@ const main = () => {
   }
 
   //--------------------------infospot pour le 1er Panorama-------------
-  addInfoSpot(panorama1, 4500, 2050, 800, "base_republique", 50);
-  addInfoSpot(panorama1, 4500, 3850, 400, "statue_republique", 170);
+  addInfoSpot(panorama1, 4500, 2050, 800, "base_republique", 60);
+  addInfoSpot(panorama1, 4500, 3850, 400, "statue_republique", 220);
   addInfoSpot(panorama1, 4500, 550, 1000, "videoRpb", 250);
-  addInfoSpot(panorama1, 1500, 400, 3900, "wallStreet", 280);
+  addInfoSpot(panorama1, 1500, 400, 3900, "wallStreet", 320);
   addInfoSpot(panorama1, -1500, 400, 4900, "cafe_republique", 270);
-  addInfoSpot(panorama1, 3500, 1050, -3300, "Gendarmerie_nationale", 70);
-  addInfoSpot(panorama1, -1550, 150, 1850, "republique-metro", 70);
+  addInfoSpot(panorama1, 3500, 1050, -3300, "Gendarmerie_nationale", 180);
+  addInfoSpot(panorama1, -1550, 150, 1850, "republique-metro", 150);
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 2eme Panorama-------------
@@ -81,14 +81,14 @@ const main = () => {
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 3er Panorama-------------
-  addInfoSpot(panorama3, 5200, 200, 3800, "maisonlandemaine", 280);
-  addInfoSpot(panorama3, 1500, 300, 3800, "wallStreet", 290);
-  addInfoSpot(panorama3, 5500, 250, -2800, "Rayon", 280);
+  addInfoSpot(panorama3, 5200, 200, 3800, "maisonlandemaine", 300);
+  addInfoSpot(panorama3, 1500, 300, 3800, "wallStreet", 320);
+  addInfoSpot(panorama3, 5500, 250, -2800, "Rayon", 320);
   //---------------------------------------------------------------------
 
   //--------------------------infospot pour le 4er Panorama-------------
   addInfoSpot(panorama4, -3000, 300, -4500, "banque", 120);
-  addInfoSpot(panorama4, -200, 300, 3800, "Gendarmerie_nationale", 150);
+  addInfoSpot(panorama4, -200, 300, 3800, "Gendarmerie_nationale", 180);
   addInfoSpot(panorama4, 1500, 250, -2800, "cafe", 100);
   //---------------------------------------------------------------------
 
