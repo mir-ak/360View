@@ -82,7 +82,7 @@ ul li a:hover::after {
 }
 .site-container-right {
   position: absolute;
-  bottom: 20%;
+  bottom: 10%;
   right: 15%;
   color: #fff;
 }
@@ -115,7 +115,8 @@ ul li a:hover::after {
   animation: animate 20s linear 2s infinite alternate;
 }
 .site-container-right img {
-  margin-left: 10px;
+  margin-left: -10px;
+  width: 240px;
 }
 
 .site-container .row {
