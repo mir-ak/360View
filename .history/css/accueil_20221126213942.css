@@ -116,8 +116,7 @@ ul li a:hover::after {
 }
 .site-container-right img {
   margin-left: -10px;
-  width: 240px;
-  height: 47PX;
+  width: 200px;
 }
 
 .site-container .row {
